@@ -11,6 +11,12 @@ projects:
         origin: https://github.com/gauravgaikwad242/spring-jpa-h2
 attributes:  
   controller.devfile.io/storage-type: ephemeral
+  .vscode/extensions.json: |
+    {
+      "recommendations": [
+        "genuitecllc.codetogether"
+      ]
+    }
   .che/che-theia-plugins.yaml: |
     - id: vscjava/vscode-java-pack
 components:
