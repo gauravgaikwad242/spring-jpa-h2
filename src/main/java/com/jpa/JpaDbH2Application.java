@@ -19,7 +19,19 @@ public class JpaDbH2Application implements CommandLineRunner{
 		Order order = new Order();
 		order.setOrderPrice(9);
 		order.setProductName("abc");
+		Order order1 = new Order();
+		order1.setOrderPrice(49);
+		order1.setProductName("tabc");
+		Order order2 = new Order();
+		order2.setOrderPrice(39);
+		order2.setProductName("rabc");
+		Order order3 = new Order();
+		order3.setOrderPrice(29);
+		order3.setProductName("6abc");
 		orderService.createOrder(order);
+		orderService.createOrder(order1);
+		orderService.createOrder(order2);
+		orderService.createOrder(order3);
 		
 	}
 

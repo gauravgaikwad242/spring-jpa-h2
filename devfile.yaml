@@ -6,7 +6,7 @@ projects:
   - name: spring-jpa-h2
     git:
       checkoutFrom:
-        revision: master
+        revision: devfile #branch
       remotes:
         origin: https://github.com/gauravgaikwad242/spring-jpa-h2
 attributes:  
