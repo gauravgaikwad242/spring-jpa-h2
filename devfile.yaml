@@ -2,13 +2,6 @@ schemaVersion: 2.1.0
 metadata:
   name: spring-jpa-h2
   generateName: spring-jpa-h2
-projects:
-  - name: spring-jpa-h2
-    git:
-      checkoutFrom:
-        revision: devfile #branch
-      remotes:
-        origin: https://github.com/gauravgaikwad242/spring-jpa-h2
 attributes:  
   controller.devfile.io/storage-type: ephemeral
   .vscode/extensions.json: |
